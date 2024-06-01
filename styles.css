@@ -520,14 +520,16 @@ h3 {
 @media (max-width: 600px) {
     .header-title {
         margin-left: 0.5%;
+        font-size: 30px;
     } 
 
     .header-menu { 
-        margin-left: 25%;
+        margin-left: 15%;
     }
 
     .menu {
         text-align: left;
+        font-size: 12px;
     }
 
     .first-menu, .second-menu, .third-menu {
@@ -612,6 +614,14 @@ h3 {
 
     .footer-last-line {
         margin-top: 3%;
+    }
+
+    .show-all-block {
+        font-size: 14px;
+    }
+
+    .bx-cart, .gridicons_search { 
+        width: 40px;
     }
 }
 
