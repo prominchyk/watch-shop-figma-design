@@ -329,7 +329,7 @@ h3 {
 }
 
 .last {
-    margin-top: -3%;
+    margin-top: -26.5px;
 }
 
 .articles-items:nth-child(even) {
@@ -621,7 +621,7 @@ h3 {
     }
 
     .bx-cart, .gridicons_search { 
-        width: 40px;
+        width: 35px;
     }
 }
 
