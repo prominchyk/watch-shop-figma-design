@@ -1,0 +1,828 @@
+html {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+.white-line {
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 4%;
+    border-top: 1px solid white;
+}
+
+.hidden {
+    display: none;
+}
+
+/*header top-line*/
+
+.header-top-line {
+    width: 100%;
+    display: flex;
+    height: 44px;
+}
+
+.phone-outline {
+    width: 60%;
+}
+
+.sharp-login {
+    width: 40%
+}
+
+.phone-outline, .sharp-login {
+    color: rgba(150, 150, 150, 1);
+    font-size: 12px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    align-content: center;
+}
+
+.header-top-line a {
+    text-decoration: none;
+    color: rgba(150, 150, 150, 1);
+}
+
+.header-top-line a:hover {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.header-top-line img {
+    padding-left: 1%;
+}
+
+/*header-second-line*/
+
+.header-second-line {
+    width: 100%;
+    display: flex;
+    height: 80px;
+}
+
+.header-title {
+    width: 20%;
+    font-family: "Stick No Bills", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    align-content: center;
+    margin-left: 16%;
+}
+
+.header-menu {
+    width: 80%;
+    display: flex;
+    margin-left: 12%;
+    flex-wrap: wrap;
+}
+
+.menu {
+    width: 150px;
+    color: rgba(150, 150, 150, 1);
+    font-size: 14px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    align-content: center;
+}
+
+.bx-cart, .gridicons_search {
+    width: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.menu:hover, .bx-cart:hover, .gridicons_search:hover {
+    background-color: rgba(25, 27, 28, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgba(25, 27, 28, 1);
+    color: white;
+    cursor: pointer;
+}
+
+/*main first-screen*/
+
+.first-screen {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 500px;
+    background-image: url(images/body/firstScreen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 9%;    
+}
+
+.first-screen-logo {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    margin: 0 auto;
+    padding-top: 4%;
+}
+
+.first-screen-logo-logotip {
+    width: 55%;
+    margin: 0 auto;
+    font-family: "Stick No Bills", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.first-screen-logo-city {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.first-screen-text {
+    width: 45%;
+    font-family: "PT Sans", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+/*main collections*/
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.new-seazon {
+    width: 55%;
+    min-height: 450px;
+}
+
+.new-seazon h3 {
+    margin: 0 auto;
+    margin-top: 7%;
+    padding-bottom: 3%;
+}
+
+.new-seazon-goods {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+.new-seazon-item {
+    width: 25%;
+}
+
+.new-seazon-item:hover, .new-goods-item:hover:not(.last) {
+    cursor: pointer;
+    background-color: rgba(25, 27, 28, 1);
+    opacity: 0.8;
+}
+
+.new-seazon-item-photo, .new-goods-item-photo {
+    width: 100%;
+    background-color: rgba(25, 27, 28, 1);
+    margin-bottom: 8%;
+}
+
+.watch-name {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.watch-price {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 11px;
+}
+
+.new-collection {
+    width: 45%;
+    box-sizing: border-box;
+    min-height: 450px;
+    background-image: url(images/body/new-collection-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new-collection h3 {
+    margin-top: 50%;
+}
+
+.new-collection-catalog {
+    box-sizing: border-box;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border: 1px solid white;
+    text-align: center;
+    height: 25px;
+    padding-top: 0.6%;
+}
+
+.collection-2018, .articles-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.collection-2018-photo {
+    width: 50%;
+    box-sizing: border-box;
+    min-height: 400px;
+    background-image: url(images/body/collection-2018-photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.collection-2018-content {
+    width: 50%;
+    min-height: 400px;
+}
+
+.collection-2018-content h3 {
+    font-weight: 400;
+    margin-top: 12%;
+}
+
+.collection-2018-text {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.collection-2018-btn {
+    box-sizing: border-box;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 1px solid white;
+    text-align: center;
+    height: 25px;
+    padding-top: 0.6%;
+}
+
+.new-goods {
+    width: 100%;
+    /*min-height: 850px;*/
+    margin-top: 3%;
+}
+
+.new-goods-items {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 66%;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+.new-goods-item {
+    width: 21%;
+    margin-bottom: 2%;
+}
+
+.new-goods-item img, .new-seazon-item img {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.show-all-block {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    position: relative;
+    width: 80%;
+    top: 40%;
+    border: 1px solid white;
+    text-align: center;
+    height: 25px;
+    z-index: 1;
+    padding-top: 1%;
+    margin: 0 auto;
+}
+
+.last {
+    margin-top: -3%;
+}
+
+.articles-items:nth-child(even) {
+    margin-bottom: 3%;
+}
+
+.article-photo {
+    min-height: 300px;
+    width: 50%;
+}
+
+.article-content {
+    min-height: 300px;
+    width: 50%;
+}
+
+.article-text {
+    margin: 0 auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 80%;
+    text-align: left;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.article-buttons {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+.article-read-btn {
+    width: 100px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    text-align: center;
+    height: 25px;
+    padding-top: 0.6%;
+}
+
+.article-hash {
+    padding-top: 2%;
+    text-align: right;
+    width: 80%;
+    font-size: 14px;
+}
+
+.article-hash a {
+    text-decoration: none;
+    color: white;
+}
+
+.article-hash a:hover {
+    text-decoration-line: underline;
+}
+
+.our-brands-items {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.our-brands-item {
+    margin-bottom: 4%;
+}
+
+.our-brands-item img {
+    height: 80px;
+}
+
+/*footer first line*/
+
+.footer-first-line {
+    width: 100%;
+    min-height: 300px;
+    background-image: url("images/footer/footer-backgr.png");
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-first-line-content {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-content-item {
+    width: 30%;
+    margin-top: 3%;
+}
+
+.footer-content-title {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-content-text {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer-content-item input[type="email"] {
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 25px;
+    border: 1px solid gray;
+}
+
+.footer-content-item input::placeholder {
+    padding-left: 3%;
+    color: white;
+}
+
+.footer-content-item input[type="submit"] {
+    background-color: black;
+    color: white;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.footer-categories-block {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.footer-categories-item {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: black;
+    color: rgba(208, 208, 208, 1);
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+
+.new-collection-catalog:hover, .collection-2018-btn:hover, .show-all-block:hover, .article-read-btn:hover, .footer-content-item input[type="submit"]:hover, .footer-categories-item:hover {
+    background-color: gainsboro;
+    color: black;
+    cursor: pointer;
+}
+
+.footer-last-line {
+    width: 100%;
+}
+
+.footer-last-line-content {
+    margin: 0 auto;
+    margin-top: 0.6%;
+    width: 80%;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(208, 208, 208, 1);
+}
+
+.footer-last-line-first-item {
+    width: 50%;
+    text-align: left;
+}
+
+.footer-last-line-second-item {
+    width: 50%;
+    text-align: right;
+}
+
+.footer-last-line-second-item a {
+    color: rgba(208, 208, 208, 1);
+}
+
+/*adaptive design*/
+
+@media (max-width: 600px) {
+    .header-title {
+        margin-left: 0.5%;
+    } 
+
+    .header-menu { 
+        margin-left: 25%;
+    }
+
+    .menu {
+        text-align: left;
+    }
+
+    .first-menu, .second-menu, .third-menu {
+        text-align: right;
+    }
+
+    .first-screen {
+        background-position: center;    
+    }
+
+    .first-screen-logo {
+        width: 160px;
+        height: 160px;
+    }
+
+    .first-screen-logo-logotip {
+        width: 70%;
+    }
+
+    .new-seazon, .new-collection {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .phone-outline, .sharp-login {
+        font-size: 10px;
+    }
+
+    .new-collection h3 {
+        margin-top: 40%;
+    }
+
+    .collection-2018-photo, .collection-2018-content {
+        width: 100%;
+        min-height: 450px;
+    }
+
+    .collection-2018-photo {
+        background-position: right;
+    }
+
+    .new-goods-items {
+        width: 100%;
+    }
+
+    .new-goods-item {
+        width: 40%;
+    }
+
+    .article-photo {
+        min-height: 0px;
+        width: 100%;
+    }
+
+    .article-content {
+        min-height: 210px;
+        width: 100%;
+    }
+
+    .article-text {
+        margin: 0;
+        width: 98%;
+        text-align: left;
+    }
+
+    .article-buttons {
+        margin: 0;
+    }
+
+    .our-brands-items, .footer-content-item {
+        width: 100%;
+    }
+
+    .footer-first-line {
+        background-position: center;
+    }
+
+    .footer-first-line-content, .footer-last-line-content {
+        margin: 0;
+        margin-left: 3%;
+    }
+
+    .footer-last-line {
+        margin-top: 3%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .header-title {
+        margin-left: 6%;
+    } 
+
+    .header-menu {
+        margin-left: -3%;
+    }
+
+    .first-screen { 
+        min-height: 400px; 
+    }
+
+    .first-screen-logo {
+        width: 160px;
+        height: 160px;
+    }
+
+    .first-screen-logo-logotip {
+        width: 70%;
+    }
+
+    .new-seazon {
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .new-collection {
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .new-collection h3 {
+        margin-top: 25%;
+    }
+
+    .collection-2018-photo {
+        background-position: center;
+    }
+
+    .new-goods-items {
+        width: 80%;
+    }
+
+    .new-goods-item {
+        width: 26%;
+    }
+
+    .article-photo {
+        margin: 0 auto;
+        width: 80%;
+        min-height: 200px;
+    }
+
+    .article-content {
+        min-height: 250px;
+        width: 100%;
+    }
+
+    .our-brands-items { 
+        width: 99%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+    .header-title {
+        margin-left: 14%;
+    } 
+
+    .first-screen {
+        min-height: 450px; 
+    }
+
+    .header-menu {
+        margin-left: 2%;
+    }
+
+    .new-goods-items {
+        width: 80%;
+    }
+
+    .article-photo, .article-content {
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .header-title {
+        margin-left: 18%;
+    } 
+
+    .header-menu {
+        margin-left: 16%;
+    }
+
+    .new-goods-items {
+        width: 65%;
+    }
+
+    .article-photo, .article-content {
+        min-height: 350px;
+    }
+}
+
+@media (min-width: 1601px) {
+    .header-title {
+        margin-left: 21%;
+    } 
+
+    .header-menu {
+        margin-left: 23%;
+    }
+
+    .first-screen {
+        min-height: 800px; 
+    }
+
+    .first-screen-logo {
+        width: 320px;
+        height: 320px;
+    }
+
+    .first-screen-logo-logotip {
+        width: 60%;
+        font-size: 64px;
+    }
+
+    .first-screen-logo-city {
+        font-size: 22px;
+    }
+
+    .first-screen-text, .watch-price {
+        font-size: 16px;
+    }
+
+    .new-seazon h3, .new-collection h3, .collection-2018-content h3, .new-goods h3, .articles h3, .our-brands h3 {
+        font-size: 36px;
+    }
+
+    .watch-name {
+        font-size: 18px;
+    }
+
+    .new-collection-catalog {
+        font-size: 18px;
+        width: 150px;
+        height: 40px;
+        padding-top: 1.2%;
+    }
+
+    .collection-2018-btn {
+        font-size: 18px;
+        width: 300px;
+        height: 40px;
+        padding-top: 1.2%;
+    }
+
+    .new-collection, .new-seazon {
+        min-height: 700px;
+    }
+
+    .collection-2018-text {
+        font-size: 14px;
+    }
+
+    .collection-2018 {
+        min-height: 600px;
+    }
+
+    .new-goods-items {
+        width: 55%;
+    }
+
+    .article-photo, .article-content {
+        min-height: 450px;
+    }
+
+    .article-text, .article-hash, .article-read-btn {
+        font-size: 16px;
+    }
+
+    .our-brands-item img {
+        height: 150px;
+    }
+
+    .footer-content-text, .footer-categories-item {
+        font-size: 14px;
+    }
+
+    .footer-content-title { 
+        font-size: 24px;
+    }
+
+    .footer-last-line-content {
+        font-size: 12px;
+    }
+
+}
+
+/*black-line to separate photos in mobile and tablet design */
+@media (max-width: 900px) {
+    .black-line {
+        width: 100%;
+        height: 1%;
+        background-color: black;
+    }
+}
+
+
+
+
